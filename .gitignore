@@ -1,0 +1,6 @@
+*.sublime*
+data/*
+node_modules/*
+.gitignore
+looker
+test*

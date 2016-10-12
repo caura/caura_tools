@@ -15,7 +15,8 @@ except ImportError:
     from yaml import Loader
 
 INPUT_DIRECTORY = ''
-OUTPUT_DIRECTORY = ''
+OUTPUT_DIRECTORY_SQL = ''
+OUTPUT_DIRECTORY_LOOKML = ''
 
 # maps view_names to their file names
 file_mapping = {}
@@ -24,17 +25,15 @@ pdt_properties = {}
 
 PDT_NAME = """${{{view_name}.SQL_TABLE_NAME}}"""
 
-MATERIAL_TABLE_NAME = """[realself-main:rsdw_support.view_{view_name}]"""
+MATERIAL_TABLE_NAME = """[<project>:<dataset>.view_{view_name}]"""
 
-DYNAMIC_PDT_REFERENCE = """(
-SELECT
-  *
-FROM
-TABLE_QUERY([realself-main:looker_scratch], 'REGEXP_MATCH(table_id, r"^LR.*{view_name}")') )"""
+DYNAMIC_PDT_REFERENCE = """[<project>:<dataset>.pdtref_{view_name}]"""
+#TODO need to create views for this dynamically
 
 # of rows allowed for a PDT
 MAINTENANCE_SIZE = 2000000
 
+#TODO view name is cut-off in size.csv - need to revisit how those are exported
 sizes = {}
 def loadPDTSizes(filename):
   with open(filename) as file:
@@ -74,8 +73,15 @@ def depBuilder(dependency_tree,top_parent=0):
     top_parent = dependency_tree
   has_time_dependent_tables = False
   for view_name in dependency_tree.keys():
+    print(view_name)
     # if it is a child, always copy from dependencies from the topmost tree
+    try:
+      assert view_name in top_parent
+    except AssertionError:
+      print('the view with a referenced PDT does not exist - check LookML changes')
+      exit(1)
     dependency_tree[view_name] = top_parent[view_name]
+    print('build children')
     is_time_dependent = depBuilder(dependency_tree[view_name],top_parent)
     pdt_properties[view_name]['has_time_dependent_tables'] = pdt_properties[view_name]['has_time_dependent_tables'] or is_time_dependent
     if pdt_properties[view_name]['has_time_dependent_tables']:
@@ -110,17 +116,19 @@ def processViews(stream, dependency_tree,file_reference):
 
   return dependency_tree
 
-# def toD3Json(dependency_tree,parent='realself'):
-#   new_store = []
-#   for key in dependency_tree.keys():
-#     new_store.append(
-#       {
-#         "name": key
-#         , "parent": parent
-#         , "children": toD3Json(dependency_tree[key],key)
-#       }
-#     )
-#   return new_store
+def toD3Json(dependency_tree,parent='<project>'):
+  new_store = []
+  for key in dependency_tree.keys():
+    element = {
+        "name": key
+        , "parent": parent
+      }
+    if dependency_tree[key]:
+      element["children"] = toD3Json(dependency_tree[key],key)
+    new_store.append(
+      element
+    )
+  return new_store
 def performReplacement(text,rep):
   assert isinstance(rep, dict)
   rep = dict((re.escape(k), v) for k, v in rep.iteritems())
@@ -140,19 +148,19 @@ def getSQLfromView(view_name):
   stream.close()
   return query
 
-def printView(view_name,substitutions,output_directory,is_replacable=True):
+def printView(view_name,substitutions,is_replacable=True):
   query = getSQLfromView(view_name)
   if is_replacable:
-    new_file = output_directory+'view_'+view_name+'.sql'
+    new_file = OUTPUT_DIRECTORY_SQL+'view_'+view_name+'.sql'
   else:
-    new_file = output_directory+'dt_'+view_name+'.sql'
+    new_file = OUTPUT_DIRECTORY_LOOKML+view_name+'.sql'
   if os.path.isfile(new_file):
     return
   # substitute strings:
   if substitutions:
     query = performReplacement(query,substitutions)
-  with open(new_file,'w') as f:
-    f.write(query)
+  # with open(new_file,'w') as f:
+  #   f.write(query)
 
 def isPDTReplacable(view_name):
   if (pdt_properties[view_name]['is_pdt']
@@ -167,28 +175,28 @@ def isPDTReplacable(view_name):
 def whichReplacementString(view_name,parent_view):
 
   if isPDTReplacable(view_name):
-    print('pdt '+view_name+' is too large and we can do something about it')
+    # print('pdt '+view_name+' is too large and we can do something about it')
     return MATERIAL_TABLE_NAME
   elif isPDTReplacable(parent_view):
-    if pdt_properties[view_name]['is_pdt'] and pdt_properties[view_name]['size'] > MAINTENANCE_SIZE:
-      print('pdt '+view_name+' is too large and there IS NOTHING we do about it')
-    elif pdt_properties[view_name]['is_pdt']:
-      print('pdt '+view_name+' is not large')
+    # if pdt_properties[view_name]['is_pdt'] and pdt_properties[view_name]['size'] > MAINTENANCE_SIZE:
+    #   # print('pdt '+view_name+' is too large and there IS NOTHING we do about it')
+    # elif pdt_properties[view_name]['is_pdt']:
+    #   # print('pdt '+view_name+' is not large')
     return DYNAMIC_PDT_REFERENCE
   else:
       return PDT_NAME
 
-def dtToView(view_name,dependency_tree,out,out_parameter_out):
+def dtToView(view_name,dependency_tree,out):
   dependencies = dependency_tree[view_name]
   if not dependencies:
-    out(view_name,{},out_parameter_out,isPDTReplacable(view_name))
+    out(view_name,{},isPDTReplacable(view_name))
   else:
     substitutions = {}
     for view in dependencies.keys():
-      dtToView(view,dependencies,out,out_parameter_out)
+      dtToView(view,dependencies,out)
       substitutions[PDT_NAME.format(view_name=view)] = whichReplacementString(view,view_name).format(view_name=view)
       # dependencies.pop(view, None)
-    out(view_name,substitutions,out_parameter_out,isPDTReplacable(view_name))
+    out(view_name,substitutions,isPDTReplacable(view_name))
 
 
 def main():
@@ -199,6 +207,12 @@ def main():
     if INPUT_DIRECTORY.find('/',len(INPUT_DIRECTORY)-1) == -1:
       INPUT_DIRECTORY = INPUT_DIRECTORY+'/'
     OUTPUT_DIRECTORY = sys.argv[2]
+    if OUTPUT_DIRECTORY.find('/',len(OUTPUT_DIRECTORY)-1) == -1:
+      OUTPUT_DIRECTORY = OUTPUT_DIRECTORY+'/'
+
+    OUTPUT_DIRECTORY_SQL = OUTPUT_DIRECTORY+'sql/'
+    OUTPUT_DIRECTORY_LOOKML = OUTPUT_DIRECTORY+'lookml/'
+
     csv_size_file = sys.argv[3]
   else:
     print("./pdt_dependency_grapher.py INPUT_DIRECTORY OUTPUT_DIRECTORY FULL_PATH_TO_PDT_SIZE_FILE")
@@ -228,23 +242,32 @@ def main():
 
   #3rd step: remove unnecessery roots
   assert end_points #fail only if no joins or explores in the model
+  before = len(dependency_tree.keys())
   for view_name in dependency_tree.keys():
     if view_name not in end_points:
       dependency_tree.pop(view_name, None)
 
+  after = len(dependency_tree.keys())
+  assert before > after
+
+
   assert dependency_tree #are there still roots left to process
   #4rd step: record dependencies to views
   for view_name in dependency_tree.keys():
-      dtToView(view_name,dependency_tree,printView,OUTPUT_DIRECTORY)
+      dtToView(view_name,dependency_tree,printView)
 
-  # temp_file = OUTPUT_DIRECTORY+'dependency.json'
-  # with open(temp_file,'w') as f:
-  #   tree = {
-  #     "name": "realself"
+  #5th step dump dependency record
+
+  temp_file = OUTPUT_DIRECTORY+'dependency.json'
+  # temp_file = OUTPUT_DIRECTORY+'dependency-friendly.json'
+  with open(temp_file,'w') as f:
+  #   tree = [{
+  #     "name": "<project>"
   #     , "parent": "null"
   #     , "children": toD3Json(dependency_tree)
-  #   }
-  #   f.write(json.dumps(tree))
+  #   }]
+    # f.write(json.dumps(tree))
+    f.write(json.dumps(dependency_tree))
 
 
 if __name__ == '__main__':
