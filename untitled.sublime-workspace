@@ -1,0 +1,815 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"o",
+				"otherwise"
+			],
+			[
+				"proto",
+				"prototype"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "bigquery_view_persist.py",
+			"settings":
+			{
+				"buffer_size": 4152,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "pdt_dependency_grapher.py",
+			"settings":
+			{
+				"buffer_size": 2581,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "{\"events_optimizely_first_pass\": {}, \"ga_mobile_app_hits\": {}, \"mrr_by_doctor\": {}, \"user_engagement_level\": {\"events_sql_user_activity\": {\"ga_event_map_user_activity\": {\"ga_event_map_user_activity__app\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"ga_event_map_user_activity__web\": {}}}, \"events_sql_doctor_contacts\": {\"ga_event_map_user_activity\": {\"ga_event_map_user_activity__app\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"ga_event_map_user_activity__web\": {}}, \"phone_lead_estimated_revenue\": {}, \"events_sql_doctor_contacts_webclicks\": {\"events_sql_doctor_contacts_webclicks__web\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"webclick_estimated_revenue\": {}, \"lead_drivers_profile_views\": {\"events_sql_ga_pageviews\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}}, \"events_sql_doctor_contacts_webclicks__app\": {}}, \"lead_drivers_profile_views\": {\"events_sql_ga_pageviews\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}, \"email_lead_estimated_revenue\": {}}, \"events_sql_clickstream_history\": {\"events_sql_ga\": {\"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}, \"events_sql_ga_mobile\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"events_sql_user_accounts\": {\"ga_event_map_user_activity\": {\"ga_event_map_user_activity__app\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"ga_event_map_user_activity__web\": {}}}}, \"ga_user_map__app\": {}, \"sponsorships_monthly_stats\": {}, \"pricing_model_by_topic\": {\"events_sql_doctor_contacts\": {\"ga_event_map_user_activity\": {\"ga_event_map_user_activity__app\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"ga_event_map_user_activity__web\": {}}, \"phone_lead_estimated_revenue\": {}, \"events_sql_doctor_contacts_webclicks\": {\"events_sql_doctor_contacts_webclicks__web\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"webclick_estimated_revenue\": {}, \"lead_drivers_profile_views\": {\"events_sql_ga_pageviews\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}}, \"events_sql_doctor_contacts_webclicks__app\": {}}, \"lead_drivers_profile_views\": {\"events_sql_ga_pageviews\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}, \"email_lead_estimated_revenue\": {}}, \"events_sql_clickstream_history\": {\"events_sql_ga\": {\"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}, \"events_sql_ga_mobile\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}, \"ga_user_first_session\": {}, \"pricing_model_inventory\": {\"events_sql_clickstream_history\": {\"events_sql_ga\": {\"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}, \"events_sql_ga_mobile\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}, \"lead_drivers_email_leads\": {\"events_sql_doctor_contacts\": {\"ga_event_map_user_activity\": {\"ga_event_map_user_activity__app\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"ga_event_map_user_activity__web\": {}}, \"phone_lead_estimated_revenue\": {}, \"events_sql_doctor_contacts_webclicks\": {\"events_sql_doctor_contacts_webclicks__web\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"webclick_estimated_revenue\": {}, \"lead_drivers_profile_views\": {\"events_sql_ga_pageviews\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}}, \"events_sql_doctor_contacts_webclicks__app\": {}}, \"lead_drivers_profile_views\": {\"events_sql_ga_pageviews\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}, \"email_lead_estimated_revenue\": {}}, \"doctor\": {}}, \"doctor_campaign_list\": {}, \"events_by_doctor_sensitive\": {}, \"ga_search_term_order\": {\"events_sql_ga_finder_search\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}, \"events_sql_ga_site_search\": {\"events_sql_ga_site_search_history\": {}, \"events_sql_ga_site_search_recent\": {}, \"events_sql_ga_site_search_recent__stale\": {}}}, \"actor_events_pareto\": {\"events_sql_doctor_contacts\": {\"ga_event_map_user_activity\": {\"ga_event_map_user_activity__app\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"ga_event_map_user_activity__web\": {}}, \"phone_lead_estimated_revenue\": {}, \"events_sql_doctor_contacts_webclicks\": {\"events_sql_doctor_contacts_webclicks__web\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"webclick_estimated_revenue\": {}, \"lead_drivers_profile_views\": {\"events_sql_ga_pageviews\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}}, \"events_sql_doctor_contacts_webclicks__app\": {}}, \"lead_drivers_profile_views\": {\"events_sql_ga_pageviews\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}, \"email_lead_estimated_revenue\": {}}, \"events_sql_user_activity\": {\"ga_event_map_user_activity\": {\"ga_event_map_user_activity__app\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"ga_event_map_user_activity__web\": {}}}, \"events_sql_doctor_activity\": {\"events_sql_doctor_activity__paying_status\": {\"mrr_by_date_and_doctor\": {}, \"events_sql_revenue\": {}}, \"ga_event_map_user_activity\": {\"ga_event_map_user_activity__app\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"ga_event_map_user_activity__web\": {}}}}, \"sponsorship_sku\": {}, \"churn_dataset\": {\"mrr_by_date_and_doctor\": {}, \"churn_dataset_doctor_dashboard\": {\"events_sql_clickstream_history\": {\"events_sql_ga\": {\"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}, \"events_sql_ga_mobile\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}, \"events_sql_all\": {\"events_sql_topic\": {}, \"events_sql_clickstream_history\": {\"events_sql_ga\": {\"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}, \"events_sql_ga_mobile\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"events_sql_desk\": {}, \"events_sql_sailthru\": {}, \"events_sql_revenue\": {}, \"events_sql_ga_site_search\": {\"events_sql_ga_site_search_history\": {}, \"events_sql_ga_site_search_recent\": {}, \"events_sql_ga_site_search_recent__stale\": {}}, \"events_sql_doctor_contacts\": {\"ga_event_map_user_activity\": {\"ga_event_map_user_activity__app\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"ga_event_map_user_activity__web\": {}}, \"phone_lead_estimated_revenue\": {}, \"events_sql_doctor_contacts_webclicks\": {\"events_sql_doctor_contacts_webclicks__web\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"webclick_estimated_revenue\": {}, \"lead_drivers_profile_views\": {\"events_sql_ga_pageviews\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}}, \"events_sql_doctor_contacts_webclicks__app\": {}}, \"lead_drivers_profile_views\": {\"events_sql_ga_pageviews\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}, \"email_lead_estimated_revenue\": {}}, \"events_sql_user_accounts\": {\"ga_event_map_user_activity\": {\"ga_event_map_user_activity__app\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"ga_event_map_user_activity__web\": {}}}, \"events_sql_user_activity\": {\"ga_event_map_user_activity\": {\"ga_event_map_user_activity__app\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"ga_event_map_user_activity__web\": {}}}, \"events_sql_doctor_activity\": {\"events_sql_doctor_activity__paying_status\": {\"mrr_by_date_and_doctor\": {}, \"events_sql_revenue\": {}}, \"ga_event_map_user_activity\": {\"ga_event_map_user_activity__app\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"ga_event_map_user_activity__web\": {}}}, \"events_sql_content_publishing\": {}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}, \"events_sql_ga_finder_search\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}, \"consumer_photos_by_topic\": {}, \"questions_by_topic\": {}, \"events_sql_ga_pageviews\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"contact_weights_by_topic\": {}, \"email_lead_estimated_revenue\": {}, \"uri_map\": {}, \"events_sql_doctor_contacts_webclicks__app\": {}, \"ga_event_map_user_activity__web\": {}, \"estimated_click_value\": {}, \"monthly_targets\": {}, \"ga_by_month\": {}, \"app_based_retention\": {\"events_sql_user_activity\": {\"ga_event_map_user_activity\": {\"ga_event_map_user_activity__app\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"ga_event_map_user_activity__web\": {}}}, \"user_devices_summary\": {\"user_devices\": {\"events_sql_user_activity\": {\"ga_event_map_user_activity\": {\"ga_event_map_user_activity__app\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"ga_event_map_user_activity__web\": {}}}, \"events_sql_clickstream_history\": {\"events_sql_ga\": {\"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}, \"events_sql_ga_mobile\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"events_sql_user_accounts\": {\"ga_event_map_user_activity\": {\"ga_event_map_user_activity__app\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"ga_event_map_user_activity__web\": {}}}}}, \"events_sql_clickstream_history\": {\"events_sql_ga\": {\"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}, \"events_sql_ga_mobile\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"events_sql_user_accounts\": {\"ga_event_map_user_activity\": {\"ga_event_map_user_activity__app\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"ga_event_map_user_activity__web\": {}}}}, \"community_manager_comment_to_update\": {}, \"lead_drivers_lead_attribution\": {\"lead_drivers_email_leads\": {\"events_sql_doctor_contacts\": {\"ga_event_map_user_activity\": {\"ga_event_map_user_activity__app\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"ga_event_map_user_activity__web\": {}}, \"phone_lead_estimated_revenue\": {}, \"events_sql_doctor_contacts_webclicks\": {\"events_sql_doctor_contacts_webclicks__web\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"webclick_estimated_revenue\": {}, \"lead_drivers_profile_views\": {\"events_sql_ga_pageviews\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}}, \"events_sql_doctor_contacts_webclicks__app\": {}}, \"lead_drivers_profile_views\": {\"events_sql_ga_pageviews\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}, \"email_lead_estimated_revenue\": {}}, \"doctor\": {}}, \"lead_drivers_profile_views\": {\"events_sql_ga_pageviews\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}}, \"ga_mobile_app_users\": {}, \"content_by_doctor_topic\": {}, \"events_sql_doctor_contacts_webclicks__web\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"webclick_estimated_revenue\": {}, \"lead_drivers_profile_views\": {\"events_sql_ga_pageviews\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}}, \"doctor_widget_usage\": {}, \"events_sql_user_activity\": {\"ga_event_map_user_activity\": {\"ga_event_map_user_activity__app\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"ga_event_map_user_activity__web\": {}}}, \"doctor_roi\": {\"mrr_by_date_and_doctor\": {}, \"events_sql_revenue\": {}, \"events_sql_doctor_contacts\": {\"ga_event_map_user_activity\": {\"ga_event_map_user_activity__app\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"ga_event_map_user_activity__web\": {}}, \"phone_lead_estimated_revenue\": {}, \"events_sql_doctor_contacts_webclicks\": {\"events_sql_doctor_contacts_webclicks__web\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"webclick_estimated_revenue\": {}, \"lead_drivers_profile_views\": {\"events_sql_ga_pageviews\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}}, \"events_sql_doctor_contacts_webclicks__app\": {}}, \"lead_drivers_profile_views\": {\"events_sql_ga_pageviews\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}, \"email_lead_estimated_revenue\": {}}}, \"events_sql_clickstream_l4m\": {\"events_sql_ga\": {\"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}, \"events_sql_ga_mobile\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"search_analytics_detail\": {}, \"mrr_by_topic\": {}, \"topic_to_categories\": {}, \"reviews_by_consumer\": {}, \"user_devices\": {\"events_sql_user_activity\": {\"ga_event_map_user_activity\": {\"ga_event_map_user_activity__app\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"ga_event_map_user_activity__web\": {}}}, \"events_sql_clickstream_history\": {\"events_sql_ga\": {\"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}, \"events_sql_ga_mobile\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"events_sql_user_accounts\": {\"ga_event_map_user_activity\": {\"ga_event_map_user_activity__app\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"ga_event_map_user_activity__web\": {}}}}, \"spotlight_delivery_percentage\": {}, \"topic_categories\": {}, \"question\": {}, \"keyword_performance_c\": {}, \"mrr_by_doctor_test\": {}, \"site_search_trend\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"topic_to_categories_sensitive\": {}, \"ga_user_map__web\": {}, \"ga_event_map_user_activity__app\": {}, \"user_email_bounce\": {}, \"ga_doctor_advertisements\": {}, \"questions_by_consumer\": {}, \"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_ga_site_search_recent__stale\": {}, \"spotlight_delivery_monthly\": {\"events_sql_revenue\": {}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"daily_report__doctor_activity\": {\"events_sql_doctor_activity\": {\"events_sql_doctor_activity__paying_status\": {\"mrr_by_date_and_doctor\": {}, \"events_sql_revenue\": {}}, \"ga_event_map_user_activity\": {\"ga_event_map_user_activity__app\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"ga_event_map_user_activity__web\": {}}}}, \"adzerk_report\": {}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}, \"events_optimizely\": {\"events_optimizely_first_pass\": {}}, \"calendar\": {}, \"lead_attribution_email_leads_from_spotlights\": {\"lead_drivers_email_leads\": {\"events_sql_doctor_contacts\": {\"ga_event_map_user_activity\": {\"ga_event_map_user_activity__app\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"ga_event_map_user_activity__web\": {}}, \"phone_lead_estimated_revenue\": {}, \"events_sql_doctor_contacts_webclicks\": {\"events_sql_doctor_contacts_webclicks__web\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"webclick_estimated_revenue\": {}, \"lead_drivers_profile_views\": {\"events_sql_ga_pageviews\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}}, \"events_sql_doctor_contacts_webclicks__app\": {}}, \"lead_drivers_profile_views\": {\"events_sql_ga_pageviews\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}, \"email_lead_estimated_revenue\": {}}, \"doctor\": {}}, \"lead_drivers_profile_views\": {\"events_sql_ga_pageviews\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}}, \"ws_users_ga_universal\": {}, \"active_users2\": {\"active_users_by_month\": {\"events_sql_clickstream_history\": {\"events_sql_ga\": {\"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}, \"events_sql_ga_mobile\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"events_sql_doctor_contacts\": {\"ga_event_map_user_activity\": {\"ga_event_map_user_activity__app\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"ga_event_map_user_activity__web\": {}}, \"phone_lead_estimated_revenue\": {}, \"events_sql_doctor_contacts_webclicks\": {\"events_sql_doctor_contacts_webclicks__web\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"webclick_estimated_revenue\": {}, \"lead_drivers_profile_views\": {\"events_sql_ga_pageviews\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}}, \"events_sql_doctor_contacts_webclicks__app\": {}}, \"lead_drivers_profile_views\": {\"events_sql_ga_pageviews\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}, \"email_lead_estimated_revenue\": {}}, \"events_sql_user_activity\": {\"ga_event_map_user_activity\": {\"ga_event_map_user_activity__app\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"ga_event_map_user_activity__web\": {}}}, \"events_sql_user_accounts\": {\"ga_event_map_user_activity\": {\"ga_event_map_user_activity__app\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"ga_event_map_user_activity__web\": {}}}}}, \"events_trend\": {\"events_sql_all\": {\"events_sql_topic\": {}, \"events_sql_clickstream_history\": {\"events_sql_ga\": {\"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}, \"events_sql_ga_mobile\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"events_sql_desk\": {}, \"events_sql_sailthru\": {}, \"events_sql_revenue\": {}, \"events_sql_ga_site_search\": {\"events_sql_ga_site_search_history\": {}, \"events_sql_ga_site_search_recent\": {}, \"events_sql_ga_site_search_recent__stale\": {}}, \"events_sql_doctor_contacts\": {\"ga_event_map_user_activity\": {\"ga_event_map_user_activity__app\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"ga_event_map_user_activity__web\": {}}, \"phone_lead_estimated_revenue\": {}, \"events_sql_doctor_contacts_webclicks\": {\"events_sql_doctor_contacts_webclicks__web\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"webclick_estimated_revenue\": {}, \"lead_drivers_profile_views\": {\"events_sql_ga_pageviews\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}}, \"events_sql_doctor_contacts_webclicks__app\": {}}, \"lead_drivers_profile_views\": {\"events_sql_ga_pageviews\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}, \"email_lead_estimated_revenue\": {}}, \"events_sql_user_accounts\": {\"ga_event_map_user_activity\": {\"ga_event_map_user_activity__app\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"ga_event_map_user_activity__web\": {}}}, \"events_sql_user_activity\": {\"ga_event_map_user_activity\": {\"ga_event_map_user_activity__app\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"ga_event_map_user_activity__web\": {}}}, \"events_sql_doctor_activity\": {\"events_sql_doctor_activity__paying_status\": {\"mrr_by_date_and_doctor\": {}, \"events_sql_revenue\": {}}, \"ga_event_map_user_activity\": {\"ga_event_map_user_activity__app\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"ga_event_map_user_activity__web\": {}}}, \"events_sql_content_publishing\": {}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}, \"events_sql_ga_finder_search\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}, \"search_clicks_stats\": {\"events_sql_search_analytics\": {\"uri_map\": {}}}, \"events_sql_desk\": {}, \"anonymous_visits\": {\"events_sql_doctor_contacts\": {\"ga_event_map_user_activity\": {\"ga_event_map_user_activity__app\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"ga_event_map_user_activity__web\": {}}, \"phone_lead_estimated_revenue\": {}, \"events_sql_doctor_contacts_webclicks\": {\"events_sql_doctor_contacts_webclicks__web\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"webclick_estimated_revenue\": {}, \"lead_drivers_profile_views\": {\"events_sql_ga_pageviews\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}}, \"events_sql_doctor_contacts_webclicks__app\": {}}, \"lead_drivers_profile_views\": {\"events_sql_ga_pageviews\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}, \"email_lead_estimated_revenue\": {}}, \"events_sql_user_activity\": {\"ga_event_map_user_activity\": {\"ga_event_map_user_activity__app\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"ga_event_map_user_activity__web\": {}}}, \"events_sql_doctor_activity\": {\"events_sql_doctor_activity__paying_status\": {\"mrr_by_date_and_doctor\": {}, \"events_sql_revenue\": {}}, \"ga_event_map_user_activity\": {\"ga_event_map_user_activity__app\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"ga_event_map_user_activity__web\": {}}}}, \"events_sql_ga_mobile\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}, \"events_by_user_by_month\": {\"events_sql_user_activity\": {\"ga_event_map_user_activity\": {\"ga_event_map_user_activity__app\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"ga_event_map_user_activity__web\": {}}}, \"events_sql_doctor_contacts\": {\"ga_event_map_user_activity\": {\"ga_event_map_user_activity__app\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"ga_event_map_user_activity__web\": {}}, \"phone_lead_estimated_revenue\": {}, \"events_sql_doctor_contacts_webclicks\": {\"events_sql_doctor_contacts_webclicks__web\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"webclick_estimated_revenue\": {}, \"lead_drivers_profile_views\": {\"events_sql_ga_pageviews\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}}, \"events_sql_doctor_contacts_webclicks__app\": {}}, \"lead_drivers_profile_views\": {\"events_sql_ga_pageviews\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}, \"email_lead_estimated_revenue\": {}}, \"events_sql_clickstream_history\": {\"events_sql_ga\": {\"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}, \"events_sql_ga_mobile\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"events_sql_user_accounts\": {\"ga_event_map_user_activity\": {\"ga_event_map_user_activity__app\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"ga_event_map_user_activity__web\": {}}}}, \"events_sql_content_publishing\": {}, \"events_sql_user_activity_30_day_test\": {\"events_sql_user_activity\": {\"ga_event_map_user_activity\": {\"ga_event_map_user_activity__app\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"ga_event_map_user_activity__web\": {}}}}, \"daily_report__spotlight\": {\"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"topic_rank_sensitive\": {}, \"events_sql_ga_site_search_history\": {}, \"ga_rs_user_id_by_session\": {}, \"email_contacts_by_topic\": {\"mrr_by_doctor\": {}}, \"phone_lead_estimated_revenue\": {}, \"events_sql_topic\": {}, \"pricing_model_doctor_adj\": {}, \"events_sql_ga_events__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}, \"attributed_leads_and_views\": {\"lead_drivers_lead_attribution\": {\"lead_drivers_email_leads\": {\"events_sql_doctor_contacts\": {\"ga_event_map_user_activity\": {\"ga_event_map_user_activity__app\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"ga_event_map_user_activity__web\": {}}, \"phone_lead_estimated_revenue\": {}, \"events_sql_doctor_contacts_webclicks\": {\"events_sql_doctor_contacts_webclicks__web\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"webclick_estimated_revenue\": {}, \"lead_drivers_profile_views\": {\"events_sql_ga_pageviews\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}}, \"events_sql_doctor_contacts_webclicks__app\": {}}, \"lead_drivers_profile_views\": {\"events_sql_ga_pageviews\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}, \"email_lead_estimated_revenue\": {}}, \"doctor\": {}}, \"lead_drivers_profile_views\": {\"events_sql_ga_pageviews\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}}, \"events_sql_clickstream_history\": {\"events_sql_ga\": {\"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}, \"events_sql_ga_mobile\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}, \"article\": {}, \"ws_users\": {\"ws_users_ga_universal\": {}, \"ws_users_ga_processed\": {}, \"ws_users_mobile_app\": {}}, \"topic_rank\": {}, \"doctor_cohort_monthly_claims\": {}, \"user_facts\": {\"ga_user_first_session\": {}}, \"first_answer_by_question\": {}, \"latest_braintree_billing_by_doctor\": {}, \"package\": {}, \"churn_dataset_doctor_dashboard\": {\"events_sql_clickstream_history\": {\"events_sql_ga\": {\"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}, \"events_sql_ga_mobile\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}, \"email_transactional\": {}, \"doctor_roi_by_date\": {\"mrr_by_date_and_doctor\": {}, \"events_sql_revenue\": {}, \"events_sql_doctor_contacts\": {\"ga_event_map_user_activity\": {\"ga_event_map_user_activity__app\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"ga_event_map_user_activity__web\": {}}, \"phone_lead_estimated_revenue\": {}, \"events_sql_doctor_contacts_webclicks\": {\"events_sql_doctor_contacts_webclicks__web\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"webclick_estimated_revenue\": {}, \"lead_drivers_profile_views\": {\"events_sql_ga_pageviews\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}}, \"events_sql_doctor_contacts_webclicks__app\": {}}, \"lead_drivers_profile_views\": {\"events_sql_ga_pageviews\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}, \"email_lead_estimated_revenue\": {}}}, \"daily_report__user_activity\": {\"events_sql_user_activity\": {\"ga_event_map_user_activity\": {\"ga_event_map_user_activity__app\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"ga_event_map_user_activity__web\": {}}}}, \"ga_by_provider_segment\": {\"topic_to_categories\": {}}, \"topic_contacts_change\": {}, \"events_sql_all\": {\"events_sql_topic\": {}, \"events_sql_clickstream_history\": {\"events_sql_ga\": {\"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}, \"events_sql_ga_mobile\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"events_sql_desk\": {}, \"events_sql_sailthru\": {}, \"events_sql_revenue\": {}, \"events_sql_ga_site_search\": {\"events_sql_ga_site_search_history\": {}, \"events_sql_ga_site_search_recent\": {}, \"events_sql_ga_site_search_recent__stale\": {}}, \"events_sql_doctor_contacts\": {\"ga_event_map_user_activity\": {\"ga_event_map_user_activity__app\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"ga_event_map_user_activity__web\": {}}, \"phone_lead_estimated_revenue\": {}, \"events_sql_doctor_contacts_webclicks\": {\"events_sql_doctor_contacts_webclicks__web\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"webclick_estimated_revenue\": {}, \"lead_drivers_profile_views\": {\"events_sql_ga_pageviews\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}}, \"events_sql_doctor_contacts_webclicks__app\": {}}, \"lead_drivers_profile_views\": {\"events_sql_ga_pageviews\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}, \"email_lead_estimated_revenue\": {}}, \"events_sql_user_accounts\": {\"ga_event_map_user_activity\": {\"ga_event_map_user_activity__app\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"ga_event_map_user_activity__web\": {}}}, \"events_sql_user_activity\": {\"ga_event_map_user_activity\": {\"ga_event_map_user_activity__app\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"ga_event_map_user_activity__web\": {}}}, \"events_sql_doctor_activity\": {\"events_sql_doctor_activity__paying_status\": {\"mrr_by_date_and_doctor\": {}, \"events_sql_revenue\": {}}, \"ga_event_map_user_activity\": {\"ga_event_map_user_activity__app\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"ga_event_map_user_activity__web\": {}}}, \"events_sql_content_publishing\": {}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}, \"events_sql_ga_finder_search\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"adgroup_performance\": {}, \"ga_content_type_buckets_order\": {\"events_sql_clickstream_history\": {\"events_sql_ga\": {\"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}, \"events_sql_ga_mobile\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}, \"non_active_users\": {\"active_users_by_month\": {\"events_sql_clickstream_history\": {\"events_sql_ga\": {\"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}, \"events_sql_ga_mobile\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"events_sql_doctor_contacts\": {\"ga_event_map_user_activity\": {\"ga_event_map_user_activity__app\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"ga_event_map_user_activity__web\": {}}, \"phone_lead_estimated_revenue\": {}, \"events_sql_doctor_contacts_webclicks\": {\"events_sql_doctor_contacts_webclicks__web\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"webclick_estimated_revenue\": {}, \"lead_drivers_profile_views\": {\"events_sql_ga_pageviews\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}}, \"events_sql_doctor_contacts_webclicks__app\": {}}, \"lead_drivers_profile_views\": {\"events_sql_ga_pageviews\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}, \"email_lead_estimated_revenue\": {}}, \"events_sql_user_activity\": {\"ga_event_map_user_activity\": {\"ga_event_map_user_activity__app\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"ga_event_map_user_activity__web\": {}}}, \"events_sql_user_accounts\": {\"ga_event_map_user_activity\": {\"ga_event_map_user_activity__app\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"ga_event_map_user_activity__web\": {}}}}}, \"email_lead\": {}, \"visible_impressions\": {}, \"ga_hits_at\": {}, \"daily_report__shopper\": {\"events_sql_doctor_contacts\": {\"ga_event_map_user_activity\": {\"ga_event_map_user_activity__app\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"ga_event_map_user_activity__web\": {}}, \"phone_lead_estimated_revenue\": {}, \"events_sql_doctor_contacts_webclicks\": {\"events_sql_doctor_contacts_webclicks__web\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"webclick_estimated_revenue\": {}, \"lead_drivers_profile_views\": {\"events_sql_ga_pageviews\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}}, \"events_sql_doctor_contacts_webclicks__app\": {}}, \"lead_drivers_profile_views\": {\"events_sql_ga_pageviews\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}, \"email_lead_estimated_revenue\": {}}, \"events_sql_clickstream_history\": {\"events_sql_ga\": {\"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}, \"events_sql_ga_mobile\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}, \"events_sql_user_accounts\": {\"ga_event_map_user_activity\": {\"ga_event_map_user_activity__app\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"ga_event_map_user_activity__web\": {}}}, \"events_sql_ga\": {\"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}, \"events_sql_ga_site_search\": {\"events_sql_ga_site_search_history\": {}, \"events_sql_ga_site_search_recent\": {}, \"events_sql_ga_site_search_recent__stale\": {}}, \"doctor_activity\": {\"doctor_activity_by_date\": {\"events_sql_doctor_activity\": {\"events_sql_doctor_activity__paying_status\": {\"mrr_by_date_and_doctor\": {}, \"events_sql_revenue\": {}}, \"ga_event_map_user_activity\": {\"ga_event_map_user_activity__app\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"ga_event_map_user_activity__web\": {}}}}}, \"events_by_doctor\": {\"events_sql_user_activity\": {\"ga_event_map_user_activity\": {\"ga_event_map_user_activity__app\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"ga_event_map_user_activity__web\": {}}}, \"events_sql_doctor_contacts\": {\"ga_event_map_user_activity\": {\"ga_event_map_user_activity__app\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"ga_event_map_user_activity__web\": {}}, \"phone_lead_estimated_revenue\": {}, \"events_sql_doctor_contacts_webclicks\": {\"events_sql_doctor_contacts_webclicks__web\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"webclick_estimated_revenue\": {}, \"lead_drivers_profile_views\": {\"events_sql_ga_pageviews\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}}, \"events_sql_doctor_contacts_webclicks__app\": {}}, \"lead_drivers_profile_views\": {\"events_sql_ga_pageviews\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}, \"email_lead_estimated_revenue\": {}}, \"events_sql_clickstream_history\": {\"events_sql_ga\": {\"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}, \"events_sql_ga_mobile\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"events_sql_doctor_activity\": {\"events_sql_doctor_activity__paying_status\": {\"mrr_by_date_and_doctor\": {}, \"events_sql_revenue\": {}}, \"ga_event_map_user_activity\": {\"ga_event_map_user_activity__app\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"ga_event_map_user_activity__web\": {}}}}, \"doctor_photos_by_topic\": {}, \"events_sql_ga_site_search_recent\": {}, \"doctors_by_provider_segment\": {\"topic_to_categories\": {}}, \"events_sql_doctor_activity\": {\"events_sql_doctor_activity__paying_status\": {\"mrr_by_date_and_doctor\": {}, \"events_sql_revenue\": {}}, \"ga_event_map_user_activity\": {\"ga_event_map_user_activity__app\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"ga_event_map_user_activity__web\": {}}}, \"realfriend\": {}, \"videos_by_topic\": {}, \"ga_user_first_session_by_rs_id\": {}, \"ga_event_map_user_activity\": {\"ga_event_map_user_activity__app\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"ga_event_map_user_activity__web\": {}}, \"topic_annual_growth\": {\"events_sql_clickstream_history\": {\"events_sql_ga\": {\"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}, \"events_sql_ga_mobile\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}, \"events_clickstream_history_30_day_test\": {}, \"sponsorships_guaranteed_impressions\": {}, \"bigquery_usage\": {}, \"search_analytics_overall\": {}, \"doctors_by_topic\": {}, \"ga_mobile_app_hits_intraday\": {}, \"new__events_sql_user_activity\": {\"ga_event_map_user_activity\": {\"ga_event_map_user_activity__app\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"ga_event_map_user_activity__web\": {}}}, \"events_sql_ga_events\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}, \"rs_employee_accounts\": {}, \"events_sql_doctor_contacts_webclicks\": {\"events_sql_doctor_contacts_webclicks__web\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"webclick_estimated_revenue\": {}, \"lead_drivers_profile_views\": {\"events_sql_ga_pageviews\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}}, \"events_sql_doctor_contacts_webclicks__app\": {}}, \"ga_doctor_finder_content_type\": {}, \"review_entry\": {}, \"topic_categories_old\": {}, \"doctor_goal\": {}, \"dynamic_spotlight_enrollment\": {}, \"search_clicks_rank\": {\"events_sql_search_analytics\": {\"uri_map\": {}}}, \"monthly_billed_revenue\": {}, \"doctor_activity_by_date\": {\"events_sql_doctor_activity\": {\"events_sql_doctor_activity__paying_status\": {\"mrr_by_date_and_doctor\": {}, \"events_sql_revenue\": {}}, \"ga_event_map_user_activity\": {\"ga_event_map_user_activity__app\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"ga_event_map_user_activity__web\": {}}}}, \"sponsorship_sku_daily_status\": {}, \"search_impressions_rank\": {\"events_sql_search_analytics\": {\"uri_map\": {}}}, \"daily_report__ga_web_raw\": {}, \"doctor_spotlight_roi_l28d\": {\"mrr_by_date_and_doctor\": {}, \"events_sql_revenue\": {}, \"events_sql_doctor_contacts\": {\"ga_event_map_user_activity\": {\"ga_event_map_user_activity__app\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"ga_event_map_user_activity__web\": {}}, \"phone_lead_estimated_revenue\": {}, \"events_sql_doctor_contacts_webclicks\": {\"events_sql_doctor_contacts_webclicks__web\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"webclick_estimated_revenue\": {}, \"lead_drivers_profile_views\": {\"events_sql_ga_pageviews\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}}, \"events_sql_doctor_contacts_webclicks__app\": {}}, \"lead_drivers_profile_views\": {\"events_sql_ga_pageviews\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}, \"email_lead_estimated_revenue\": {}}}, \"events_sql_doctor_contacts\": {\"ga_event_map_user_activity\": {\"ga_event_map_user_activity__app\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"ga_event_map_user_activity__web\": {}}, \"phone_lead_estimated_revenue\": {}, \"events_sql_doctor_contacts_webclicks\": {\"events_sql_doctor_contacts_webclicks__web\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"webclick_estimated_revenue\": {}, \"lead_drivers_profile_views\": {\"events_sql_ga_pageviews\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}}, \"events_sql_doctor_contacts_webclicks__app\": {}}, \"lead_drivers_profile_views\": {\"events_sql_ga_pageviews\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}, \"email_lead_estimated_revenue\": {}}, \"lead_drivers_profile_views\": {\"events_sql_ga_pageviews\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}, \"ga_landing_page_content_type_buckets_order\": {\"events_sql_clickstream_history\": {\"events_sql_ga\": {\"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}, \"events_sql_ga_mobile\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}, \"claim_mad_growth\": {}, \"company_goals\": {\"events_sql_clickstream_history\": {\"events_sql_ga\": {\"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}, \"events_sql_ga_mobile\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"events_sql_user_accounts\": {\"ga_event_map_user_activity\": {\"ga_event_map_user_activity__app\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"ga_event_map_user_activity__web\": {}}}, \"events_sql_doctor_contacts\": {\"ga_event_map_user_activity\": {\"ga_event_map_user_activity__app\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"ga_event_map_user_activity__web\": {}}, \"phone_lead_estimated_revenue\": {}, \"events_sql_doctor_contacts_webclicks\": {\"events_sql_doctor_contacts_webclicks__web\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"webclick_estimated_revenue\": {}, \"lead_drivers_profile_views\": {\"events_sql_ga_pageviews\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}}, \"events_sql_doctor_contacts_webclicks__app\": {}}, \"lead_drivers_profile_views\": {\"events_sql_ga_pageviews\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}, \"email_lead_estimated_revenue\": {}}, \"events_sql_user_activity\": {\"ga_event_map_user_activity\": {\"ga_event_map_user_activity__app\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"ga_event_map_user_activity__web\": {}}}, \"events_sql_revenue\": {}, \"monthly_targets\": {}, \"topic_to_categories\": {}}, \"events_sql_ga_finder_search\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}, \"email_campaign_email\": {}, \"pageviews_by_content\": {}, \"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"doctor_rating\": {}, \"ga_by_topic\": {}, \"pricing_model_by_topic_old\": {\"events_sql_doctor_contacts\": {\"ga_event_map_user_activity\": {\"ga_event_map_user_activity__app\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"ga_event_map_user_activity__web\": {}}, \"phone_lead_estimated_revenue\": {}, \"events_sql_doctor_contacts_webclicks\": {\"events_sql_doctor_contacts_webclicks__web\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"webclick_estimated_revenue\": {}, \"lead_drivers_profile_views\": {\"events_sql_ga_pageviews\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}}, \"events_sql_doctor_contacts_webclicks__app\": {}}, \"lead_drivers_profile_views\": {\"events_sql_ga_pageviews\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}, \"email_lead_estimated_revenue\": {}}, \"events_sql_clickstream_history\": {\"events_sql_ga\": {\"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}, \"events_sql_ga_mobile\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}, \"contacts_by_month\": {}, \"daily_report\": {\"daily_report__traffic\": {\"events_sql_clickstream_history\": {\"events_sql_ga\": {\"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}, \"events_sql_ga_mobile\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}, \"daily_report__ga_web_raw\": {}, \"daily_report__shopper\": {\"events_sql_doctor_contacts\": {\"ga_event_map_user_activity\": {\"ga_event_map_user_activity__app\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"ga_event_map_user_activity__web\": {}}, \"phone_lead_estimated_revenue\": {}, \"events_sql_doctor_contacts_webclicks\": {\"events_sql_doctor_contacts_webclicks__web\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"webclick_estimated_revenue\": {}, \"lead_drivers_profile_views\": {\"events_sql_ga_pageviews\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}}, \"events_sql_doctor_contacts_webclicks__app\": {}}, \"lead_drivers_profile_views\": {\"events_sql_ga_pageviews\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}, \"email_lead_estimated_revenue\": {}}, \"events_sql_clickstream_history\": {\"events_sql_ga\": {\"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}, \"events_sql_ga_mobile\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}, \"daily_report__doctor_activity\": {\"events_sql_doctor_activity\": {\"events_sql_doctor_activity__paying_status\": {\"mrr_by_date_and_doctor\": {}, \"events_sql_revenue\": {}}, \"ga_event_map_user_activity\": {\"ga_event_map_user_activity__app\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"ga_event_map_user_activity__web\": {}}}}, \"daily_report__user_activity\": {\"events_sql_user_activity\": {\"ga_event_map_user_activity\": {\"ga_event_map_user_activity__app\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"ga_event_map_user_activity__web\": {}}}}, \"daily_report__spotlight\": {\"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}, \"ws_users_mobile_app\": {}, \"events_sql_ga_visible\": {}, \"user_devices_summary\": {\"user_devices\": {\"events_sql_user_activity\": {\"ga_event_map_user_activity\": {\"ga_event_map_user_activity__app\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"ga_event_map_user_activity__web\": {}}}, \"events_sql_clickstream_history\": {\"events_sql_ga\": {\"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}, \"events_sql_ga_mobile\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"events_sql_user_accounts\": {\"ga_event_map_user_activity\": {\"ga_event_map_user_activity__app\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"ga_event_map_user_activity__web\": {}}}}}, \"email_campaign_email_for_events\": {}, \"advisor_by_date_and_doctor\": {\"rs_employee_accounts\": {}}, \"daily_report__traffic\": {\"events_sql_clickstream_history\": {\"events_sql_ga\": {\"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}, \"events_sql_ga_mobile\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}, \"ws_users_ga_processed\": {}, \"doctor\": {}, \"contacts_by_provider_segment\": {\"events_sql_doctor_contacts\": {\"ga_event_map_user_activity\": {\"ga_event_map_user_activity__app\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"ga_event_map_user_activity__web\": {}}, \"phone_lead_estimated_revenue\": {}, \"events_sql_doctor_contacts_webclicks\": {\"events_sql_doctor_contacts_webclicks__web\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"webclick_estimated_revenue\": {}, \"lead_drivers_profile_views\": {\"events_sql_ga_pageviews\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}}, \"events_sql_doctor_contacts_webclicks__app\": {}}, \"lead_drivers_profile_views\": {\"events_sql_ga_pageviews\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}, \"email_lead_estimated_revenue\": {}}}, \"ga_populations\": {}, \"ga_traffic_source_order\": {\"events_sql_clickstream_history\": {\"events_sql_ga\": {\"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}, \"events_sql_ga_mobile\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}, \"events\": {\"events_sql_topic\": {}, \"events_sql_clickstream_history\": {\"events_sql_ga\": {\"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}, \"events_sql_ga_mobile\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"events_sql_desk\": {}, \"events_sql_sailthru\": {}, \"events_sql_revenue\": {}, \"events_sql_ga_site_search\": {\"events_sql_ga_site_search_history\": {}, \"events_sql_ga_site_search_recent\": {}, \"events_sql_ga_site_search_recent__stale\": {}}, \"events_sql_doctor_contacts\": {\"ga_event_map_user_activity\": {\"ga_event_map_user_activity__app\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"ga_event_map_user_activity__web\": {}}, \"phone_lead_estimated_revenue\": {}, \"events_sql_doctor_contacts_webclicks\": {\"events_sql_doctor_contacts_webclicks__web\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"webclick_estimated_revenue\": {}, \"lead_drivers_profile_views\": {\"events_sql_ga_pageviews\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}}, \"events_sql_doctor_contacts_webclicks__app\": {}}, \"lead_drivers_profile_views\": {\"events_sql_ga_pageviews\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}, \"email_lead_estimated_revenue\": {}}, \"events_sql_user_accounts\": {\"ga_event_map_user_activity\": {\"ga_event_map_user_activity__app\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"ga_event_map_user_activity__web\": {}}}, \"events_sql_user_activity\": {\"ga_event_map_user_activity\": {\"ga_event_map_user_activity__app\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"ga_event_map_user_activity__web\": {}}}, \"events_sql_doctor_activity\": {\"events_sql_doctor_activity__paying_status\": {\"mrr_by_date_and_doctor\": {}, \"events_sql_revenue\": {}}, \"ga_event_map_user_activity\": {\"ga_event_map_user_activity__app\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"ga_event_map_user_activity__web\": {}}}, \"events_sql_search_analytics\": {\"uri_map\": {}}, \"events_sql_content_publishing\": {}, \"events_sql_ga_events__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}, \"events_sql_ga_finder_search\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}, \"events_sql_ga_events\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"active_users_by_month\": {\"events_sql_clickstream_history\": {\"events_sql_ga\": {\"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}, \"events_sql_ga_mobile\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"events_sql_doctor_contacts\": {\"ga_event_map_user_activity\": {\"ga_event_map_user_activity__app\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"ga_event_map_user_activity__web\": {}}, \"phone_lead_estimated_revenue\": {}, \"events_sql_doctor_contacts_webclicks\": {\"events_sql_doctor_contacts_webclicks__web\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"webclick_estimated_revenue\": {}, \"lead_drivers_profile_views\": {\"events_sql_ga_pageviews\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}}, \"events_sql_doctor_contacts_webclicks__app\": {}}, \"lead_drivers_profile_views\": {\"events_sql_ga_pageviews\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}, \"email_lead_estimated_revenue\": {}}, \"events_sql_user_activity\": {\"ga_event_map_user_activity\": {\"ga_event_map_user_activity__app\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"ga_event_map_user_activity__web\": {}}}, \"events_sql_user_accounts\": {\"ga_event_map_user_activity\": {\"ga_event_map_user_activity__app\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"ga_event_map_user_activity__web\": {}}}}, \"mrr_by_date_and_doctor\": {}, \"events_by_user\": {\"events_sql_user_activity\": {\"ga_event_map_user_activity\": {\"ga_event_map_user_activity__app\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"ga_event_map_user_activity__web\": {}}}, \"events_sql_doctor_contacts\": {\"ga_event_map_user_activity\": {\"ga_event_map_user_activity__app\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"ga_event_map_user_activity__web\": {}}, \"phone_lead_estimated_revenue\": {}, \"events_sql_doctor_contacts_webclicks\": {\"events_sql_doctor_contacts_webclicks__web\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"webclick_estimated_revenue\": {}, \"lead_drivers_profile_views\": {\"events_sql_ga_pageviews\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}}, \"events_sql_doctor_contacts_webclicks__app\": {}}, \"lead_drivers_profile_views\": {\"events_sql_ga_pageviews\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}, \"email_lead_estimated_revenue\": {}}, \"events_sql_clickstream_history\": {\"events_sql_ga\": {\"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}, \"events_sql_ga_mobile\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"events_sql_user_accounts\": {\"ga_event_map_user_activity\": {\"ga_event_map_user_activity__app\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"ga_event_map_user_activity__web\": {}}}}, \"events_sql_clickstream_history\": {\"events_sql_ga\": {\"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}, \"events_sql_ga_mobile\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"users\": {\"non_active_users\": {\"active_users_by_month\": {\"events_sql_clickstream_history\": {\"events_sql_ga\": {\"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}, \"events_sql_ga_mobile\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"events_sql_doctor_contacts\": {\"ga_event_map_user_activity\": {\"ga_event_map_user_activity__app\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"ga_event_map_user_activity__web\": {}}, \"phone_lead_estimated_revenue\": {}, \"events_sql_doctor_contacts_webclicks\": {\"events_sql_doctor_contacts_webclicks__web\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"webclick_estimated_revenue\": {}, \"lead_drivers_profile_views\": {\"events_sql_ga_pageviews\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}}, \"events_sql_doctor_contacts_webclicks__app\": {}}, \"lead_drivers_profile_views\": {\"events_sql_ga_pageviews\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}, \"email_lead_estimated_revenue\": {}}, \"events_sql_user_activity\": {\"ga_event_map_user_activity\": {\"ga_event_map_user_activity__app\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"ga_event_map_user_activity__web\": {}}}, \"events_sql_user_accounts\": {\"ga_event_map_user_activity\": {\"ga_event_map_user_activity__app\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"ga_event_map_user_activity__web\": {}}}}}}, \"events_sql_sailthru\": {}, \"google_analytics\": {}, \"events_sql_search_analytics\": {\"uri_map\": {}}, \"events_sql_revenue\": {}, \"notebook\": {}, \"user\": {}, \"paying_doctor_inconsistency_report\": {}, \"dummy_events_sql\": {\"events_sql_topic\": {}, \"events_sql_clickstream_history\": {\"events_sql_ga\": {\"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}, \"events_sql_ga_mobile\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"events_sql_desk\": {}, \"events_sql_sailthru\": {}, \"events_sql_revenue\": {}, \"events_sql_ga_site_search\": {\"events_sql_ga_site_search_history\": {}, \"events_sql_ga_site_search_recent\": {}, \"events_sql_ga_site_search_recent__stale\": {}}, \"events_sql_doctor_contacts\": {\"ga_event_map_user_activity\": {\"ga_event_map_user_activity__app\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"ga_event_map_user_activity__web\": {}}, \"phone_lead_estimated_revenue\": {}, \"events_sql_doctor_contacts_webclicks\": {\"events_sql_doctor_contacts_webclicks__web\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"webclick_estimated_revenue\": {}, \"lead_drivers_profile_views\": {\"events_sql_ga_pageviews\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}}, \"events_sql_doctor_contacts_webclicks__app\": {}}, \"lead_drivers_profile_views\": {\"events_sql_ga_pageviews\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}, \"email_lead_estimated_revenue\": {}}, \"events_sql_user_accounts\": {\"ga_event_map_user_activity\": {\"ga_event_map_user_activity__app\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"ga_event_map_user_activity__web\": {}}}, \"events_sql_user_activity\": {\"ga_event_map_user_activity\": {\"ga_event_map_user_activity__app\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"ga_event_map_user_activity__web\": {}}}, \"events_sql_doctor_activity\": {\"events_sql_doctor_activity__paying_status\": {\"mrr_by_date_and_doctor\": {}, \"events_sql_revenue\": {}}, \"ga_event_map_user_activity\": {\"ga_event_map_user_activity__app\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"ga_event_map_user_activity__web\": {}}}, \"events_sql_content_publishing\": {}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}, \"events_sql_ga_finder_search\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"dummy\": {}, \"webclick_estimated_revenue\": {}, \"reviews_by_topic\": {}, \"events_sql_doctor_activity__paying_status\": {\"mrr_by_date_and_doctor\": {}, \"events_sql_revenue\": {}}, \"ga_hits\": {}, \"answers_by_topic\": {}, \"consumer_event_tiers\": {\"events_sql_doctor_contacts\": {\"ga_event_map_user_activity\": {\"ga_event_map_user_activity__app\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"ga_event_map_user_activity__web\": {}}, \"phone_lead_estimated_revenue\": {}, \"events_sql_doctor_contacts_webclicks\": {\"events_sql_doctor_contacts_webclicks__web\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"webclick_estimated_revenue\": {}, \"lead_drivers_profile_views\": {\"events_sql_ga_pageviews\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}}, \"events_sql_doctor_contacts_webclicks__app\": {}}, \"lead_drivers_profile_views\": {\"events_sql_ga_pageviews\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}, \"email_lead_estimated_revenue\": {}}, \"events_sql_user_activity\": {\"ga_event_map_user_activity\": {\"ga_event_map_user_activity__app\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"ga_event_map_user_activity__web\": {}}}}, \"active_users\": {\"active_users_by_month\": {\"events_sql_clickstream_history\": {\"events_sql_ga\": {\"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}, \"events_sql_ga_mobile\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"events_sql_doctor_contacts\": {\"ga_event_map_user_activity\": {\"ga_event_map_user_activity__app\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"ga_event_map_user_activity__web\": {}}, \"phone_lead_estimated_revenue\": {}, \"events_sql_doctor_contacts_webclicks\": {\"events_sql_doctor_contacts_webclicks__web\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"webclick_estimated_revenue\": {}, \"lead_drivers_profile_views\": {\"events_sql_ga_pageviews\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}}, \"events_sql_doctor_contacts_webclicks__app\": {}}, \"lead_drivers_profile_views\": {\"events_sql_ga_pageviews\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}, \"email_lead_estimated_revenue\": {}}, \"events_sql_user_activity\": {\"ga_event_map_user_activity\": {\"ga_event_map_user_activity__app\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"ga_event_map_user_activity__web\": {}}}, \"events_sql_user_accounts\": {\"ga_event_map_user_activity\": {\"ga_event_map_user_activity__app\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"ga_event_map_user_activity__web\": {}}}}}, \"app_retention_analysis\": {\"events_sql_clickstream_history\": {\"events_sql_ga\": {\"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}, \"events_sql_ga_mobile\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"user_devices_summary\": {\"user_devices\": {\"events_sql_user_activity\": {\"ga_event_map_user_activity\": {\"ga_event_map_user_activity__app\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"ga_event_map_user_activity__web\": {}}}, \"events_sql_clickstream_history\": {\"events_sql_ga\": {\"events_sql_ga_pageviews__stale\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}, \"events_sql_sponsorship_impressions\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}}, \"events_sql_ga_mobile\": {\"ga_user_map\": {\"ga_user_map__app\": {}, \"ga_user_map__web\": {}}}}, \"events_sql_user_accounts\": {\"ga_event_map_user_activity\": {\"ga_event_map_user_activity__app\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"ga_event_map_user_activity__web\": {}}}}}, \"events_sql_user_activity\": {\"ga_event_map_user_activity\": {\"ga_event_map_user_activity__app\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"ga_event_map_user_activity__web\": {}}}, \"events_sql_desk\": {}, \"events_sql_user_accounts\": {\"ga_event_map_user_activity\": {\"ga_event_map_user_activity__app\": {}, \"ga_event_map_user_activity__web__stale\": {}, \"ga_event_map_user_activity__web\": {}}}}, \"practices\": {}, \"sponsorships\": {}, \"ga_user_signup_session\": {}, \"optimizely_experiment_list\": {\"events_optimizely_first_pass\": {}}, \"user_most_active_topic\": {}, \"tmp_email_lead_decline\": {}, \"ga_optimizely\": {}, \"keyword_performance\": {}}",
+			"file": "/Users/Looker/lookml_realself/out/dependency.json",
+			"file_size": 82847,
+			"file_write_time": 131206742780000000,
+			"settings":
+			{
+				"buffer_size": 82847,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/Looker/lookml_realself/rsdw_analytics_public.model.lookml",
+			"settings":
+			{
+				"buffer_size": 3549,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "- view: der\n  derived_table:\n    sql_trigger_value: SELECT FLOOR((TIMESTAMP_TO_SEC(CURRENT_TIMESTAMP()) - 60*60*16)/(60*60*24))\n    sql: |\n      \n      # __PDT_BUILD__ daily_report__doctor_activity\n      SELECT\n        *\n      FROM  (\n            SELECT\n              TIMESTAMP(DATE(event_timestamp)) AS dt,\n              'Doctor' AS header_1,\n              'Answers' AS header_2,\n              'New Answer' AS metric,\n              FLOAT(SUM(IF(event_key = 15,1,0))) AS metric_value\n              \n            FROM ${events_sql_doctor_activity.SQL_TABLE_NAME}\n            \n            GROUP EACH BY 1\n            )\n          , (\n            SELECT\n              TIMESTAMP(DATE(event_timestamp)) AS dt,\n              'Doctor' AS header_1,\n              'Doctor Media' AS header_2,\n              'New Doctor Photo' AS metric,\n              FLOAT(SUM(IF(event_key = 31,1,0))) AS metric_value\n              \n            FROM ${events_sql_doctor_activity.SQL_TABLE_NAME}\n            \n            GROUP EACH BY 1\n            )\n          , (\n            SELECT\n              TIMESTAMP(DATE(event_timestamp)) AS dt,\n              'Doctor' AS header_1,\n              'Doctor Media' AS header_2,\n              'New Doctor Video' AS metric,\n              FLOAT(SUM(IF(event_key = 43,1,0))) AS metric_value\n              \n            FROM ${events_sql_doctor_activity.SQL_TABLE_NAME}\n            \n            GROUP EACH BY 1\n            )",
+			"file": "/Users/Looker/lookml_realself/daily_report__doctor_activity.view.lookml",
+			"file_size": 1453,
+			"file_write_time": 131205037950000000,
+			"settings":
+			{
+				"buffer_size": 1427,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 193.0,
+		"last_filter": "line",
+		"selected_items":
+		[
+			[
+				"line",
+				"Package Control: Install Package"
+			],
+			[
+				"plug",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"git",
+				"Git: Status"
+			],
+			[
+				"update",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"previ",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"preview",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"for",
+				"Format: Javascript"
+			],
+			[
+				"form",
+				"Format: Javascript"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"depende",
+				"Package Control: Satisfy Dependencies"
+			],
+			[
+				"pac",
+				"Package Control: Add Repository"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"format",
+				"Format: Javascript"
+			],
+			[
+				"jshint",
+				"JSHint"
+			],
+			[
+				"forma",
+				"Format: Javascript"
+			],
+			[
+				"packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"mark",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"cmd",
+				"Package Control: List Unmanaged Packages"
+			],
+			[
+				"package ",
+				"Package Control: List Packages"
+			],
+			[
+				"",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"package install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 167.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/Looker/lookml_realself",
+		"/Users/Looker/lookml_realself/out"
+	],
+	"file_history":
+	[
+		"/Users/Looker/lookml_realself/daily_report.view.lookml",
+		"/Users/Looker/lookml_realself/consumer_event_tiers.view.lookml",
+		"/Users/Looker/lookml_realself/user.view.lookml",
+		"/Users/Looker/lookml_realself/ga_content_type_buckets_order.view.lookml",
+		"/Users/Looker/lookml_realself/topic_annual_growth.view.lookml",
+		"/Users/Looker/lookml_realself/pricing_model_by_topic.view.lookml",
+		"/Users/Looker/lookml_realself/ga_traffic_source_order.view.lookml",
+		"/Users/Looker/lookml_realself/daily_report__shopper.view.lookml",
+		"/Users/Looker/lookml_realself/churn_dataset_doctor_dashboard.view.lookml",
+		"/Users/Looker/lookml_realself/events_by_doctor.view.lookml",
+		"/Users/Looker/lookml_realself/daily_report__traffic.view.lookml",
+		"/Users/Looker/lookml_realself/events_sql_ga_pageviews.view.lookml",
+		"/Users/Looker/lookml_realself/events_sql_ga.view.lookml",
+		"/Users/Looker/Desktop/realself/views.lookml",
+		"/Users/Looker/Desktop/realself/views/view_denom_ga_hits.sql",
+		"/Users/Looker/Desktop/realself/views.sql",
+		"/Users/Looker/Desktop/realself/views/view_last_days_ga_sessions.sql",
+		"/Users/Looker/Desktop/realself/views/view_daily_report__spotlight.sql",
+		"/Users/Looker/Desktop/realself/daily_rebuilds.sql",
+		"/Users/Looker/Desktop/realself/views/view_daily_events_sql_sponsorship_impressions.sql",
+		"/Users/Looker/Desktop/realself/views/view_last_days_impressions.sql",
+		"/Users/Looker/Desktop/realself/views/view_latest_daily_advert.sql",
+		"/Users/Looker/Desktop/realself/views/view_daily_report__user_activity.sql",
+		"/Users/Looker/Desktop/realself/views/view_daily_report__shopper.sql",
+		"/Users/Looker/Desktop/realself/views/view_daily_report__traffic.sql",
+		"/Users/Looker/Desktop/realself/views/view_daily_report__ga_web_raw.sql",
+		"/Users/Looker/Desktop/realself/view_daily_report__doctor_activity.sql",
+		"/Users/Looker/Desktop/realself/.gitignore",
+		"/Users/Looker/Desktop/realself/views/view_sponsorships_received_yii.sql",
+		"/Users/Looker/Desktop/realself/views/view_sponsorships_received.sql",
+		"/Users/Looker/Desktop/realself/views/view_daily_user_snapshots.sql",
+		"/Users/Looker/Desktop/realself/views/view_skus.sql",
+		"/Users/Looker/Desktop/realself/views/view_sponsorships.sql",
+		"/Users/Looker/Desktop/realself/temp/view_daily_user_snapshots.sql",
+		"/Users/Looker/Desktop/realself/views/view_daily_sponsorships_received_clicks_ga.sql.tmp",
+		"/Users/Looker/Desktop/realself/views/view_daily_cleaned_pageviews.sql",
+		"/Users/Looker/Desktop/realself/views/view_daily_clicks.sql",
+		"/Users/Looker/Desktop/realself/views/view_last_days_ga_sessions.sql.tmp",
+		"/Users/Looker/Desktop/realself/views/view_daily_cleaned_pageviews.sql.tmp",
+		"/Users/Looker/Desktop/realself/views/view_last_days_impressions.sql.tmp",
+		"/Users/Looker/Desktop/realself/pdt_writer.py",
+		"/Users/Looker/Desktop/realself/views/view_denom_ga_hits.sql.tmp",
+		"/Users/Looker/caura_tools/pdt_dependency_grapher.py",
+		"/Users/Looker/Desktop/realself/views/view_daily_events_sql_ga_pageviews.sql",
+		"/Users/Looker/Desktop/realself/refactor.sublime-workspace",
+		"/Users/Looker/Desktop/realself/pdts.sql",
+		"/Users/Looker/Desktop/realself/view_daily_events_sql_ga_pageviews.sql",
+		"/Users/Looker/Desktop/realself/views/view_spot.sql",
+		"/Users/Looker/Desktop/realself/views/view_sku.sql",
+		"/Users/Looker/Desktop/realself/views/view_impressions.sql",
+		"/Users/Looker/Desktop/realself/views/view_daily_sponsorships_received_clicks_ga.sql",
+		"/Users/Looker/Desktop/realself/rewrite PDTs",
+		"/Users/Looker/Desktop/realself/refactor.sublime-project",
+		"/Users/Looker/Desktop/realself/views/view_events_sql_sponsorship_impressions.sql",
+		"/Users/Looker/Desktop/realself/events_sql_ga_pageviews.sql",
+		"/Users/Looker/Desktop/realself/events_sql_sponsorship_impressions.sql",
+		"/Users/Looker/Desktop/realself/views/latest_daily_advert.sql",
+		"/Users/Looker/Desktop/realself/view_ga_hits.sql",
+		"/Users/Looker/au_db_migration/table_creation.sh",
+		"/Users/Looker/au_db_migration/table_creation",
+		"/Users/Looker/au_db_migration",
+		"/Users/Looker/Downloads/equality.sql",
+		"/Users/Looker/Downloads/case.sql",
+		"/Users/Looker/Desktop/users.lookml",
+		"/Users/Looker/Dropbox/blocks/source_blocks/salesforce/submodules/the_switchboard/the_switchboard.view.lookml",
+		"/Users/Looker/Dropbox/blocks/source_blocks/salesforce/submodules/the_switchboard/leads_opportunities.sql",
+		"/Users/Looker/Dropbox/blocks/business-user-training-master/training_bigquery.model.lookml",
+		"/Users/Looker/Desktop/doctor.lookml",
+		"/Users/Looker/Downloads/looker",
+		"/Users/Looker/Desktop/realself_model.lookml",
+		"/Users/Looker/lending_club_postgres_data/dump.sql",
+		"/Users/Looker/Desktop/Records/Trials/lendingclub.sql",
+		"/Users/Looker/Desktop/Records/Trials/industry_vault.sql",
+		"/private/etc/hosts",
+		"/Users/Looker/Tools/clients/hosts.yml",
+		"/Users/Looker/caura_landing/index.html",
+		"/Users/Looker/Dropbox/blocks/source_blocks/salesforce/base/revenue_account_level/sf_extends.view.lookml",
+		"/Users/Looker/Dropbox/blocks/source_blocks/salesforce/base/revenue_account_level/_opportunity.view.lookml",
+		"/Users/Looker/Dropbox/blocks/source_blocks/salesforce/base/revenue_lead_level/lead.view.lookml",
+		"/Users/Looker/Dropbox/blocks/source_blocks/salesforce/base/revenue_lead_level/opportunity.view.lookml",
+		"/Users/Looker/Dropbox/blocks/source_blocks/salesforce/base/revenue_lead_level/salesforce.model.lookml",
+		"/Users/Looker/caura_landing/static/css/lessframework.css",
+		"/Users/Looker/caura_landing/static/css/bootstrap.min.css",
+		"/Users/Looker/caura_landing/static/style.css",
+		"/Users/Looker/caura_landing/static/css/normalize.css",
+		"/Users/Looker/Downloads/html 2/index.html",
+		"/Users/Looker/Downloads/html 2/style.css",
+		"/private/etc/hosts~orig",
+		"/Users/Looker/caura_landing/style.css",
+		"/Users/Looker/Downloads/html/style.css",
+		"/Users/Looker/datasets/census_new_construction/bathrooms_owner_built1.view.lookml",
+		"/Users/Looker/datasets/census_new_construction/bathroomsbybedrooms_contractor_built1.view.lookml",
+		"/Users/Looker/datasets/census_new_construction/property.view.lookml",
+		"/Users/Looker/datasets/census_new_construction/characteristics.view.lookml",
+		"/Users/Looker/Dropbox/blocks/business-user-training-master/training_ansi.model.lookml",
+		"/Users/Looker/Desktop/index.htm",
+		"/Users/Looker/Desktop/headers/script.js",
+		"/Users/Looker/Desktop/headers/inspectlet.js",
+		"/Users/Looker/Desktop/index.html",
+		"/Users/Looker/caura_api/build/tasks",
+		"/Users/Looker/caura_api/server.js",
+		"/Users/Looker/caura_api/config/config.js",
+		"/Users/Looker/caura_api/error_handling.js",
+		"/Users/Looker/caura_api/config/knexfile.js",
+		"/Users/Looker/caura_api/migrations/20151103133935_api_talker.js",
+		"/Users/Looker/caura_api/log/caura.api.audit.log",
+		"/Users/Looker/caura_api/log/caura.api.server.log",
+		"/Users/Looker/caura_api/core/caura.js",
+		"/Users/Looker/caura_api/core/error-handling.js",
+		"/Users/Looker/caura_api/core/server.js",
+		"/Users/Looker/caura_api/middleware/security.js",
+		"/Users/Looker/caura_api/core/models/relational/index.js",
+		"/Users/Looker/caura_api/README.md",
+		"/Users/Looker/caura_api/.gitignore",
+		"/Users/Looker/caura_api/core/models/relational/base.js",
+		"/Users/Looker/caura_api/package.json",
+		"/Users/Looker/caura_api/core/bookshelf.js",
+		"/Users/Looker/caura_api/test/security.spec.js",
+		"/Users/Looker/caura_api/config/security.spec.js",
+		"/Users/Looker/caura_api/bookshelf.js",
+		"/Users/Looker/caura_api/core/knexfile.js",
+		"/Users/Looker/caura_api/start.sh",
+		"/Users/Looker/caura_api/knexfile.js",
+		"/Users/Looker/caura_api/migrations/20151103153842_api_talker.js",
+		"/Users/Looker/caura_api/migrations/20160507145543_tokens.js",
+		"/Users/Looker/caura_api/core/tasks.js",
+		"/Users/Looker/caura_api/core/old_server.js",
+		"/Users/Looker/caura_api/core/handler.js"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 105.0,
+		"where_history":
+		[
+			"<open folders>"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"'",
+			"view:",
+			"view",
+			"in",
+			": events_sql_ga_mobile",
+			":[ ]+events_sql_ga",
+			"events_sql_ga.",
+			"events_sql_ga ",
+			"TABLE_DATE_RANGE",
+			"events_by_doctor",
+			"JOP40D) AppleWebKit/535.19 (KHTML, like Gecko; googleweblight",
+			"view_daily_cleaned_pageviews",
+			"uid",
+			"\\${(.*)\\.SQL_TABLE_NAME}",
+			"(.*)",
+			".*",
+			"events_sql_revenue",
+			"SQL_TABLE_NAME",
+			"TABLE_DATE_RANGE",
+			"LAG",
+			"LEAD(",
+			"LEAD",
+			"next_event_timestamp_sec",
+			"(content_type",
+			"content_typ",
+			"WHEN content_type",
+			" content_type",
+			"content_type",
+			"LAG",
+			"ga_session_id",
+			"ga_hits.hits.metrics.pageviews",
+			"ga_hits.hits.previous_page.content.type",
+			"ga_hits.hits.page.clean_uri",
+			"clean_uri",
+			"ga_hits.hits.content.type",
+			"content.type",
+			"ga_hits.hits",
+			"content.type",
+			"--",
+			"is_entrance",
+			"click_type",
+			"spotlight_impressions_shown",
+			"action",
+			"click_type_detail",
+			"viewable_spotlights",
+			"previous_page_content_type_bucketed",
+			"content_type_bucketed",
+			"content_type_bucketed_of_click_page",
+			"dr_id",
+			"content_type_bucketed",
+			"previous_page_content_type_bucketed",
+			"viewable_spotlights",
+			"content_type_bucketed",
+			"view",
+			"view_daily",
+			"from",
+			"view_clicks",
+			"previous",
+			"view_skus",
+			"flat",
+			"loc",
+			"ga_page_uri",
+			"advert",
+			"content_type",
+			"from_date",
+			"empty",
+			"view",
+			"impressions",
+			"impressions.",
+			"impressions",
+			"ga_sessions_",
+			"view_advert",
+			"view",
+			"SQL_TABLE_NAME",
+			" ga_hits",
+			"content_type",
+			"AS content_type",
+			"content_type",
+			"ga_hits.hits.content.type",
+			"content_type",
+			"/uploads",
+			"(?s)join\\: [a-z\\_]+[^a-z]+foreign\\_key\\: [a-z_]+",
+			"(?s)join: [a-z_]+[^a-z]+foreign_key: [a-z_]+",
+			"join: [a-z_]+[^a-z]+foreign_key: [a-z_]+",
+			"view_label: Click",
+			"logo",
+			"img",
+			"bars",
+			",",
+			"1200px",
+			"img",
+			"bars",
+			"h1",
+			".user_area",
+			"h1",
+			"-12",
+			"img",
+			"=\"img",
+			"=\"css",
+			"=\"js",
+			"dimension: year\n    type: sum",
+			"dimension: region\n    type: sum",
+			"measure: pk",
+			"measure: region",
+			"measure: year",
+			"dimension:",
+			"type: string",
+			"sql: FLOAT\\(\\${TABLE}\\.Region\\)",
+			"sql: FLOAT\\(\\${TABLE}\\.Year\\)",
+			"sql: FLOAT(${TABLE}.Year)",
+			"sql: \\${TABLE}\\.(.+)",
+			"chip",
+			"location",
+			".js",
+			"index_files/",
+			"database",
+			"css",
+			"Whie",
+			"copyright",
+			"2016",
+			"index_files",
+			"src",
+			"http:",
+			"test",
+			"mocha",
+			"tables.",
+			"logging",
+			"log"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"\"",
+			"{% table_date_range date [realself-main:rsdw_support.daily_\\1_] %}",
+			"view_\\1",
+			"- view: \\1\\n\\textends: events",
+			"- view: \\1\\nextends: events",
+			"- view: $1\\nextends: events",
+			"- view: \\1\\nextends: events",
+			"(ga_hits.hits.content.type",
+			"WHEN ga_hits.hits.content.type",
+			" ga_hits.hits.content.type",
+			"previous_page_content_type",
+			"ga_page_uri",
+			"content_type",
+			"ga_hits.hits.content.type",
+			"http://www.petitefrance.xyz/uploads",
+			"",
+			"-4",
+			"=\"static/img",
+			"=\"static/css",
+			"=\"static/js",
+			"dimension: year\n    type: string",
+			"dimension: region\n    type: string",
+			"dimension: pk",
+			"dimension: region",
+			"dimension: year",
+			"measure:",
+			"type: sum",
+			"sql: ${TABLE}.Region",
+			"sql: ${TABLE}.Year",
+			"sql: FLOAT(${TABLE}.$1)",
+			"headers/",
+			"models.",
+			"Caura",
+			"'",
+			"handlerController.prototype.",
+			"this",
+			"'",
+			"~/"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "/Users/Looker/lookml_realself"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "bigquery_view_persist.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4152,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3073,
+								3073
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2277.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "pdt_dependency_grapher.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2581,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1210,
+								1201
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 825.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/Looker/lookml_realself/out/dependency.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 82847,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								82847
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JSON (JavaScriptNext).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 3,
+					"file": "/Users/Looker/lookml_realself/rsdw_analytics_public.model.lookml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3549,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								72,
+								72
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Users/Looker/lookml_realself/daily_report__doctor_activity.view.lookml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1427,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								806,
+								806
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 37.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.575544506513,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 148.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 72.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"last_automatic_layout":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		]
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 245.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 2
+	}
+}
